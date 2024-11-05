@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codexse';
-  src:  url('fonts/codexse.eot?lw81xt');
-  src:  url('fonts/codexse.eot?lw81xt#iefix') format('embedded-opentype'),
-    url('fonts/codexse.ttf?lw81xt') format('truetype'),
-    url('fonts/codexse.woff?lw81xt') format('woff'),
-    url('fonts/codexse.svg?lw81xt#codexse') format('svg');
+  src:  url('fonts/codexse.eot?fzt2dw');
+  src:  url('fonts/codexse.eot?fzt2dw#iefix') format('embedded-opentype'),
+    url('fonts/codexse.ttf?fzt2dw') format('truetype'),
+    url('fonts/codexse.woff?fzt2dw') format('woff'),
+    url('fonts/codexse.svg?fzt2dw#codexse') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cxs-codexse:before {
+  content: "\ecf0";
+}
 .cxs-woman:before {
   content: "\eb50";
 }
